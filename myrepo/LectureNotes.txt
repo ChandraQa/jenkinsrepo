@@ -1,0 +1,68 @@
+-> Selenium Webdriver Introduction sample
+
+-> Webdriver API [Download and Configure]
+-> Creating Webdriver Scripts
+-----------------------------------
+Selenium Components
+-----------------------------------
+-> IDE for Firefox and Chrome Plugin
+-> RC-----complex,slow migrated to (Webdriver version 1) in b/w serevr will be there
+-> Webdriver--- faster, direct (version 2,3 present 4) Browser AUTOMATION
+-> Grid----parallel, multi task on different systems
+
+not a automation tool .it is a Suite.... it is API- Application Programming Interface also Interface, Framework
+-> Task ->X -->output     x is a interface
+
+
+Suports any programming languages like ---
+Java API --contains Packages ---Classes ----Methods
+import packages
+likewise Webdriver API also have ---Packages-- Classes---Methods.
+packages available in JAR files ---available in online 
+Classes in Webdriver:
+		Interface-- contains Abstract methods, final and static variable
+Methods having and not having implementation
+Interface WebDriver{
+m1();
+m2();
+m3();
+}
+	class FireFoxDriver implemented WebDriver{
+m1(){....}
+m2(){....}
+m3(){....}
+	}
+	class ChromeDriver implemented WebDriver{
+m1(){....}
+m2(){..........}
+m3(){.....}
+	}
+etc ...to implement WebDriver=========================================================================================
+==========================================================================================================
+Creating WebDriver Project in Eclips
+----------------------------------------------
+1. Create Java Project
+2. Dwonload WebDriver Jar Files
+
+
+
+
+                                                              TestNg Report
+
+
+TestNG is an open-source automated testing framework, where NG means " Next Generation" it is a testing framework inspired from JUnit, but more powerful than it.
+-->testng annotations are easy to create, grouped, parallel testing, parmetrizing, datadriven testing using Data providers,
+generates HTML reports, integrations like other tools and plugins.
+--->
+setting up
+--------------------------------------------------------------------------------------------------------------
+Annotations decides the flow of the program
+@BeforeSuite
+@BeforeTest
+@BeforeClass
+@BeforeMethod
+@Test
+@AfterSuite
+@AfterTest
+@AfterClass
+@AfterMethod
